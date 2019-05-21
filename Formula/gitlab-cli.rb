@@ -2,9 +2,9 @@
 class GitlabCli < Formula
   desc "Do a few dumb things with the Gitlab cli, probably not what you want."
   homepage "https://github.com/albertrdixon/gitlab-cli"
-  url "https://github.com/albertrdixon/gitlab-cli/releases/download/v0.0.1/gitlab-cli_0.0.1_Darwin_x86_64.tar.gz"
-  version "0.0.1"
-  sha256 "5dc03a90f83bc706e398ad14d7cf2024dfa6ccd891539d01e37ee01abb1a483d"
+  url "https://github.com/albertrdixon/gitlab-cli/releases/download/v0.1.0/gitlab-cli_0.1.0_Darwin_x86_64.tar.gz"
+  version "0.1.0"
+  sha256 "5870161be330c210b2fbffd65189f2b04e93285c02e7c09ce72cc36e6ee66499"
 
   def install
     bin.install "gitlab-cli"
